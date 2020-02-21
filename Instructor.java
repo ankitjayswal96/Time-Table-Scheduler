@@ -1,0 +1,25 @@
+package scheduler.domain;
+
+public class Instructor 
+{
+	private String id;
+	private String name;
+	public Instructor(String id,String name)
+	{
+		this.id=id;
+		this.name=name;
+	}
+	public String getId()
+	{
+		return id;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	// A String method that returns the name of the instructor
+	public String toString()
+	{
+		return name;
+	}
+}
